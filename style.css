@@ -1,0 +1,24 @@
+body{
+    text-align: center;
+    font-family: inherit;
+    background-color: black;
+}
+h1{
+    font-size: 40px;
+    font-family: fantasy;
+    font-weight: 500;
+    color: aquamarine;
+}
+.line{
+   background-color: aqua;
+    height: 6px;
+    width: 150px;
+    margin: 8px auto;
+}
+img{
+    transition: transform .2s;
+}
+img:hover{
+    transform: scale(.9);
+}
+
